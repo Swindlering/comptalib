@@ -4,7 +4,7 @@
   "description": "Simple test Comptalib - Node.js Rest Apis with Express, Sequelize & MySQL.",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/mocha"
   },
   "keywords": [
     "nodejs",
@@ -21,5 +21,9 @@
     "express": "^4.17.1",
     "mysql2": "^2.2.5",
     "sequelize": "^5.21.2"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.0.1"
   }
 }
